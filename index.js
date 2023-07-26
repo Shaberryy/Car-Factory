@@ -18,5 +18,5 @@ class ElectricCar extends Car {
         return `${super.getDiscription()}This car has a mileage of ${this.range}`;
     }
 };
-const electric1 = new ElectricCar(`Tesla`, `Model S`, `year 2019`, `300`);
-console.log (electric1);
+const electric1 = new ElectricCar(`Tesla`, `Model S, `, `year 2019`, `300`);
+console.log (electric1.getDiscription());
